@@ -55,10 +55,18 @@ Book.create(name: 'The One Thing', read: true)
 - Add an alias in route
   - Alias is almost like a variable that we can reference when routing
 
-  ## New
-  - displays a form
-  - GET request
-  - read CRUD 
+## New
+- Displays a form
+- GET request
+- read CRUD 
 
-  - ORDER MATTERS IN THE ROUTES!  Make sure that any GET request that does not need a param goes before the show route which does require a param
+- ORDER MATTERS IN THE ROUTES!  Make sure that any GET request that does not need a param goes before the show route which does require a param
 
+
+## Create
+- Adds content from the form to the database
+- POST request
+- create CRUD actions
+
+- Strong params give an extra layer of protection on user input to only allow that specific model and columns into the database.
+- Strong params are located after the keyword private which keeps anything under from being called outside of that file.
