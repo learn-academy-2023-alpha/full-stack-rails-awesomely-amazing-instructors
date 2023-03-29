@@ -77,3 +77,16 @@ Book.create(name: 'The One Thing', read: true)
 - DELETE request
 - delete CRUD action
 
+
+## Edit
+- Gets a form
+- GET request
+- read CRUD
+
+- Make sure to use link_to when setting up navigation on this one.  (Button_to will not have the same behavior)
+
+## Update
+
+- Update an instance in the db
+- PATCH or PUT request
+- update CRUD
