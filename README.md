@@ -70,3 +70,10 @@ Book.create(name: 'The One Thing', read: true)
 
 - Strong params give an extra layer of protection on user input to only allow that specific model and columns into the database.
 - Strong params are located after the keyword private which keeps anything under from being called outside of that file.
+
+
+## Destroy
+- Removes an instance
+- DELETE request
+- delete CRUD action
+
