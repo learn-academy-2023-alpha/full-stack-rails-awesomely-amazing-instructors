@@ -1,24 +1,11 @@
-# README
+# FULL STACK
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Index
+- Controller method: holds active record query (Book.all)
+- Route: defines the url('books') and calls the index method
+- View: 
+  - Iterated on the Active Record array
+  - added HTML for markup structure
+  - Use dot notation to access the attribute to display
+  - Displayed the info!
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
