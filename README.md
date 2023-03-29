@@ -9,3 +9,10 @@
   - Use dot notation to access the attribute to display
   - Displayed the info!
 
+## Show
+- Displays one item
+- GET request
+- read CRUD action
+
+- Add an alias in route
+  - Alias is almost like a variable that we can reference when routing
